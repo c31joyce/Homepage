@@ -1,0 +1,28 @@
+{
+	"proj": [
+	{
+		"name": "Jimmy-R",
+		"thumb": "images/jimmy.png",
+		"mouseover": "Design of 3D-printed bipedal walker",
+		"link": "templates/jimmy.html"
+	},
+	{
+		"name": "Rocketry",
+		"thumb": "images/rocket.png",
+		"mouseover": "Design, fabrication, and research of hybrid rocket engine",
+		"link": "templates/rocket.html"
+	},
+	{
+		"name": "SAE Mini-Baja",
+		"thumb": "images/baja.png",
+		"mouseover": "Desin and fabrication of a small, 10-horsepower offroad vehicle",
+		"link": "templates/baja.html"
+	},
+	{
+		"name": "Under-Actuated Hand",
+		"thumb": "images/hand.png",
+		"mouseover": "Design and prototyping of an under-actuated hand",
+		"link": "templates/hand.html"
+	}
+]
+}

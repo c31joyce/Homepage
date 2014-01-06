@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block body %}
+	<div class="page-header">
+		<h1>Selected Engineering Projects</h1>
+	</div>
+
+	<div class="allprojects">
+		<div class="project">
+			<a href="{{ url_for('static', filename='templates/baja.html')}}"><img src = "{{ url_for('static', filename='images/baja.jpg')}}" title = "Design and fabrication of a small off-road vehicle"/></a>
+			<h3>SAE Mini-Baja</h3>
+		</div>
+		<div class="project">
+			<a href="{{ url_for('static', filename='templates/jimmy.html')}}"><img src = "{{ url_for('static', filename='images/jimmy.png')}}" title = "Design of 3D printed bipedal walker"/></a>
+			<h3>Intel's Jimmy-R</h3>
+		</div>
+		<div class="project">
+			<a href="{{ url_for('static', filename='templates/rocket.html')}}"><img src = "{{ url_for('static', filename='images/rocket.png')}}" title = "Design and analysis of hybrid rocket engine"/></a>
+			<h3>Hybrid Rocket Engine</h3>
+		</div>
+		<div class="project">
+			<a href="{{ url_for('static', filename='templates/pendulum.html')}}"><img src = "{{ url_for('static', filename='images/pendulum.png')}}" title = "Simulation of damped double pendulum"/></a>
+			<h3>Double Pendulum</h3>
+		</div>
+		<div class="project">
+			<a href="{{ url_for('static', filename='templates/hand.html')}}"><img src = "{{ url_for('static', filename='images/hand.png')}}" title = "Design and prototyping of under-actuated hand"/></a>
+			<h3>Under-Actuated Hand</h3>
+		</div>
+		<div class="project">
+			<a href="http://looneytunes.herokuapp.com"><img src = "{{ url_for('static', filename='images/tunes.png')}}" title = "Design and Fabrication of Self-Playing Violin"/></a>
+			<h3>Self-Playing Violin</h3>
+		</div>
+	<!--
+		{% for proj in mechanical %}
+		<div class="project">
+			<a href="{{ url_for('static', filename=proj['thumb'])}}"><img src = "{{ url_for('static', filename=proj['thumb'])}}" title = proj['mouseover'] /></a>
+			<h4>{{proj["mouseover"]}}</h4>
+		</div>
+		{% endfor %}
+	-->
+	</div>
+{% endblock %}
